@@ -10,10 +10,9 @@ document.body.style.fontSize = '${tamanhoAtualFonte}rem'
 
 })
 
-diminuiFONTEBotao.addEventListener('click', function(){
+    diminuiFONTEBotao.addEventListener('click', function(){
     tamanhoAtualFonte -= 0.1;
    document.body.style.fontSize = '${tamanhoAtualFonte}rem'
    
-   
-   })
+     })
 })
