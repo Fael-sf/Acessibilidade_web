@@ -3,7 +3,11 @@
 
 :root {
     --laranja-claro: #FF862A;
- }
+    --auto-fundo: #000000;
+    --auto-texto: #ffffff;
+    --auto-link: #FFD700;
+
+}
 
 body {
     font-size: 1rem;
@@ -137,26 +141,46 @@ h2 {
 .form-control {
     background-color: #F1EDEF;
 }
-.menu-acessibilidade{
+
+.menu-acessibilidade {
     position: fixed;
-    top:2rem;
-    right:20px;
+    top: 2rem;
+    right: 20px;
     z-index: 1000;
 }
-.rotacao-botao{
+
+.rotacao-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
 }
 
-.opcoes-acessibilidade{
-    margin-top:10px;
+.opcoes-acessibilidade {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.opcoes-acessibilidade button{
+.opcoes-acessibilidade button {
     margin-bottom: 5px;
 }
-.apresenta-lista{
+
+.apresenta-lista {
     display: none;
+}
+
+.auto-contraste {
+
+    background-color: var(--auto-fundo);
+    color: var(--auto-texto);
+
+}
+
+.auto-contraste {
+
+    .alto-contraste header,
+    .alto-contraste footer,
+    .alto-contraste .formulario {
+        background-color: var(--auto-fundo);
+        color: var(--auto-texto);
+    }
 }
