@@ -177,9 +177,9 @@ h2 {
 
 .auto-contraste {
 
-    .alto-contraste header,
-    .alto-contraste footer,
-    .alto-contraste .formulario {
+    .auto-contraste header,
+    .auto-contraste footer,
+    .auto-contraste .formulario {
         background-color: var(--auto-fundo);
         color: var(--auto-texto);
     }
