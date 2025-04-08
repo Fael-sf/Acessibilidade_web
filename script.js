@@ -3,9 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
   const alternaContraste = document.getElementById('alterna-contraste')
 
-  alternaContraste.addEventListener('click', function(){
-    document.body.classList.toggle('alto-contraste')
-})
+ 
 
   botaoDeAcessibilidade.addEventListener('click', function () {
       botaoDeAcessibilidade.classList.toggle('rotacao-botao');
@@ -29,4 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
       document.body.style.fontSize = `${tamanhoAtualFonte}rem`
 
   })
+
+  alternaContraste.addEventListener('click', function(){
+    document.body.classList.toggle('alto-contraste')
+})
+
+
 })
