@@ -202,5 +202,7 @@ h2 {
     background-color: var(--auto-fundo);
 }
 .auto-contraste .fundo-galeria{
+    
     background: none;
+
 }
